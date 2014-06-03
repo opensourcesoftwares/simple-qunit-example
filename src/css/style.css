@@ -1,0 +1,25 @@
+#calculator {
+    background-color:#efefef;
+    width: 80%;
+    border: 1px solid #cccccc;
+    padding: 10px;
+    font-size: 13px;
+    font-family: Verdana;
+}
+label, #sum, #output {
+    display: block;   
+    margin: 5px 0 0;
+}
+#sum {
+    margin-top: 20px;
+    width: 150px;
+    height: 25px;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+}
+#output {
+    color: green;
+}
+
