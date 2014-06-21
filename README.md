@@ -33,5 +33,11 @@ Folder structure:-
 - README.md
 ```
 
-- Open src/index.html to run the demo app
+- Open src/index.html to run the example app
 - Open test/index.html to run the unit test
+
+Online Demo for the app:-
+http://opensourcesoftwares.github.io/simple-qunit-example/src/
+
+Online Demo for the qunit test:-
+http://opensourcesoftwares.github.io/simple-qunit-example/test/
