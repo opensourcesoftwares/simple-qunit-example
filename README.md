@@ -1,6 +1,15 @@
 
 Simple JavaScript Unit Test example Using QUnit
 ================================================
+
+**HTML Form layout of the example:-**
+
+    Number 1: [?]
+    Number 2: [?]
+    Sum of number 1 and number 2: ?
+    
+    [Calculate Sum]
+                
 **Folder structure of the example:-**
 
 - Open src/index.html to run the example app
