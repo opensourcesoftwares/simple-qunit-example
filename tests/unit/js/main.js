@@ -24,6 +24,10 @@
         ok(App.isValidNumber(0), '0 should be true');
     });
     
+    test('isValidNumber(n): Test for infinite number', function () {
+        strictEqual(App.isValidNumber(1/0), false, 'Infinite should be false');
+    });
+    
     test('isValidNumber(n): Test for undefined value', function () {
         strictEqual(App.isValidNumber(undefined), false, 'undefined should be false');
     });
