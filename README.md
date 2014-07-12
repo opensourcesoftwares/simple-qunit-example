@@ -19,7 +19,7 @@ Folder structure:-
 |       - index.html
 |
 |
--- test --
+-- tests --
 |       |-- css
 |       |       - qunit-1.14.0.css
 |       |
@@ -40,4 +40,4 @@ Online Demo for the app:-
 http://opensourcesoftwares.github.io/simple-qunit-example/src/
 
 Online Demo for the qunit test:-
-http://opensourcesoftwares.github.io/simple-qunit-example/test/
+http://opensourcesoftwares.github.io/simple-qunit-example/tests/
