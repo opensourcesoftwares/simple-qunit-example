@@ -11,11 +11,18 @@
         }
     });
     
-    test('isValidNumber(n): Test for valid numbers', function () {
-        expect(3);
-        
+    test('isValidNumber(n): Test for positive number', function () {
+        expect(1);
         ok(App.isValidNumber(3), '3 should be true');
+    });
+    
+    test('isValidNumber(n): Test for negative numbers', function () {
+        expect(1);
         ok(App.isValidNumber(-3), '-3 should be true');
+    });
+    
+    test('isValidNumber(n): Test for zero', function () {
+        expect(1);
         ok(App.isValidNumber(0), '0 should be true');
     });
     
