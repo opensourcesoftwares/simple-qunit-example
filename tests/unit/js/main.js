@@ -26,27 +26,48 @@
         ok(App.isValidNumber(0), '0 should be true');
     });
     
-    test('isValidNumber(n): Test for invalid numbers', function () {
-        expect(4);
-        
+    test('isValidNumber(n): Test for undefined value', function () {
+        expect(1);
         strictEqual(App.isValidNumber(undefined), false, 'undefined should be false');
+    });
+    
+    test('isValidNumber(n): Test for null value', function () {
+        expect(1);
         strictEqual(App.isValidNumber(null), false, 'null should be false');
+    });
+    
+    test('isValidNumber(n): Test for NaN value', function () {
+        expect(1);
         strictEqual(App.isValidNumber(NaN), false, 'NaN should be false');
+    });
+    
+    test('isValidNumber(n): Test for String values', function () {
+        expect(1);
         strictEqual(App.isValidNumber("3"), false, '"3" should be false');
     });
     
-    test("Sum(a, b): Test for valid numbers", function () {
-        expect(2);
-        
+    test("Sum(a, b): Call function with positive numbers as parameters", function () {
+        expect(1);
         strictEqual(App.sum(4, 5), 9, "Should be 9");
+    });
+    
+    test("Sum(a, b): Call function with positive and negative numbers as parameters", function () {
+        expect(1);
         strictEqual(App.sum(4, -5), -1, "Should be -1");
     });
     
-    test("Sum(a, b): Test for invalid numbers", function () {
-        expect(3);
-        
+    test("Sum(a, b): Call function without parameters", function () {
+        expect(1);
         strictEqual(App.sum(), null, "Should be null");
+    });
+    
+    test("Sum(a, b): Call function with String parameters", function () {
+        expect(1);
         strictEqual(App.sum("4", "5"), null, "Should be null");
+    });
+    
+    test("Sum(a, b): Call function with NaN and valid numbers as parameters", function () {
+        expect(1);
         strictEqual(App.sum(parseInt(''), 5), null, "Should be null");
     });
     
