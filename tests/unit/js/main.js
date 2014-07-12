@@ -61,17 +61,17 @@
     });
     
     test('sumButtonOnClickHandler(): Test for DOM element innerHTML changes', function () {
-        setValidDummyNumbersOnFakeForm();
+        set4AsNumber1And3AsNumber2OnFakeForm();
         App.sumButtonOnClickHandler();
         
-        equal($("#output span").html(), '7', 'should be "7"');
+        equal(getOutputValue(), '7', '4 + 3 should be "7"');
     });
     
     test('init(): Test for click event', function () {
-        setValidDummyNumbersOnFakeForm();
+        set4AsNumber1And3AsNumber2OnFakeForm();
         $("#sum").trigger("click");
         
-        equal($("#output span").html(), 7, 'should be "7" after click');
+        equal(getOutputValue(), 7, '4 + 3 should be "7" after click');
     });
     
     function createFakeForm() {
@@ -84,8 +84,12 @@
         $fixture.append(htmlForForm);
     };
     
-    function setValidDummyNumbersOnFakeForm () {
+    function set4AsNumber1And3AsNumber2OnFakeForm () {
         $("#number1").val(4);
         $("#number2").val(3);
+    }
+    
+    function getOutputValue () {
+        return $("#output span").html();
     }
 }());
