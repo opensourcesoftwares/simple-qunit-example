@@ -2,6 +2,12 @@
 Simple JavaScript Unit Test example Using QUnit
 ================================================
 
+*Online Demo for the app:-*
+http://opensourcesoftwares.github.io/simple-qunit-example/src/
+
+*Online Demo for the qunit test:-*
+http://opensourcesoftwares.github.io/simple-qunit-example/tests/unit/
+
 **HTML Form layout of the example:-**
 
     Number 1: [?]
@@ -45,11 +51,6 @@ Simple JavaScript Unit Test example Using QUnit
 |
 - README.md
 ```
-Online Demo for the app:-
-http://opensourcesoftwares.github.io/simple-qunit-example/src/
-
-Online Demo for the qunit test:-
-http://opensourcesoftwares.github.io/simple-qunit-example/tests/unit/
 
 **NOTE:**
 
