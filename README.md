@@ -20,15 +20,17 @@ Folder structure:-
 |
 |
 -- tests --
-|       |-- css
-|       |       - qunit-1.14.0.css
 |       |
-|       |-- js
-|       |       - main.js (Holds unit tests)
-|       |       - qunit-1.14.0.js
-|       |
-|       | 
-|       - index.html
+|       unit --
+|           |-- css
+|           |       - qunit-1.14.0.css
+|           |
+|           |-- js
+|           |       - main.js (Holds unit tests)
+|           |       - qunit-1.14.0.js
+|           |
+|           | 
+|           - index.html
 |
 - README.md
 ```
@@ -40,4 +42,4 @@ Online Demo for the app:-
 http://opensourcesoftwares.github.io/simple-qunit-example/src/
 
 Online Demo for the qunit test:-
-http://opensourcesoftwares.github.io/simple-qunit-example/tests/
+http://opensourcesoftwares.github.io/simple-qunit-example/tests/unit/
